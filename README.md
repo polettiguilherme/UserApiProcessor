@@ -1,6 +1,6 @@
 # Desafio Técnico KingHost
 ### Olá! Este é um projeto desenvolvido como parte de um desafio técnico da empresa KingHost. O objetivo é consumir uma API de usuários e exibi-los na tela, ordenando-os por nome em cada estado.
-
+![example](https://github.com/user-attachments/assets/acea74e6-e336-4045-bbd1-f733188a0f5f)
 ### Funcionalidades
 - Consumo de API de Usuários: Os dados são consumidos de uma API fictícia, presente em https://dummyjson.com/users.
 - Pesquisa de Usuários: Pesquise usuários por nome, email, username, estado ou função.

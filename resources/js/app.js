@@ -41,7 +41,6 @@ $("#select").on("change", function(){
     axios.post('/usersByState', {state: state})
         .then(response => {
             responseData = response.data;
-            console.log(responseData)
             buildUserTable(responseData.users);
         })
         .catch(error => {
@@ -83,7 +82,7 @@ function buildUserTable(users){
 function buildSelectState(stateList){
     const stateSelect = $('.form-select');
     stateSelect.empty();
-    stateSelect.append('<option selected>Selecionar estado</option>');
+    stateSelect.append('<option selected disabled>Selecionar estado</option>');
     stateSelect.append('<option>Todos</option>');
 
     stateList.forEach(state => {

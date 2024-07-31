@@ -108,7 +108,7 @@
                     </div>
                     <div class="col-2">
                         <select id="select" class="form-select mb-2" aria-label="Default select example">
-                            <option selected>Selecionar estado</option>
+                            <option selected disabled>Selecionar estado</option>
                             <option value="0">Todos</option>
                         </select>
                     </div>
